@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['tennis-ball']
+
+roboflow:
+  workspace: tennis-3ll0a
+  project: tennis-ball-icifx
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/tennis-3ll0a/tennis-ball-icifx/dataset/1
